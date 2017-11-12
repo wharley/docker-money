@@ -1,0 +1,40 @@
+{
+  "name": "my-money-backend",
+  "version": "1.0.0",
+  "description": "My money for Docker with MERN stack",
+  "author": "Wharley Ornelas <wharleyornelasjs@gmail.com>",
+  "homepage": "https://github.com/wharley/docker-money#readme",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "nodemon src/loader.js",
+    "production": "pm2 start src/loader.js --name my-money-backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wharley/docker-money.git"
+  },
+  "keywords": [
+    "docker",
+    "docker-compose",
+    "mongodb",
+    "express",
+    "react",
+    "node"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-query-int": "^1.0.1",
+    "jsonwebtoken": "^7.3.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.7.0",
+    "mongoose-paginate": "^5.0.3",
+    "node-restful": "^0.2.5",
+    "pm2": "^2.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
