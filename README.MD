@@ -14,7 +14,7 @@
 $ git clone https://github.com/wharley/docker-money.git
 ```
 
-# Create file .env inside directory ./backend/src/
+# Create file '.env' inside directory ./backend/src/
 > module.exports = {
 	authSecret: 'Youcanchangethiskey'
 }
