@@ -1,7 +1,7 @@
 {
   "name": "my-money-frontend",
   "version": "1.0.0",
-  "description": "My money for Docker with MERN stack",
+  "description": "My money for Docker using MERN",
   "author": "Wharley Ornelas <wharleyornelasjs@gmail.com>",
   "homepage": "https://github.com/wharley/docker-money#readme",
   "main": "index.js",

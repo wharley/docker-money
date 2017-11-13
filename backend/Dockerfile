@@ -4,10 +4,10 @@ ENV HOME=/home/app
 
 COPY package.json package-lock.json /home/app/docker_money/
 
-WORKDIR /home/app/docker_money
+WORKDIR $HOME/docker_money
 
-RUN npm install --silent --progress=false
+RUN npm install --progress=false
 
-COPY . /home/app/docker_money
+COPY . $HOME/docker_money
 
-CMD ["npm", "dev"]
+CMD [ "npm", "run", "dev" ]

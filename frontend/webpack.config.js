@@ -9,6 +9,8 @@ module.exports = {
     },
     devServer: {
         port: 3003,
+        host: '0.0.0.0',
+        inline: true,
         contentBase: './public',
     },
     resolve: {
